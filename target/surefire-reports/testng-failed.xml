@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Main Test Suite]" parallel="tests">
+  <test name="Cucumber Tests" junit="true">
+    <classes>
+      <class name="CucumberFramework2.Runners2.MainRunner2"/>
+    </classes>
+  </test> <!-- Cucumber Tests -->
+</suite> <!-- Failed suite [Main Test Suite] -->

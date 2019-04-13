@@ -1,0 +1,19 @@
+// this is the grid testng code
+
+<test name="Test Browser 1"  > 
+<parameter name="browser" value="firefox"></parameter>
+    <classes>
+        <class name="CucumberFramework2.stepDefinitions.Account" ></class> 
+        
+    </classes>
+</test>
+
+<test name="Test Browser 2"  >
+<parameter name="browser" value="chrome"></parameter>
+    <classes>
+        
+        <class name="CucumberFramework2.stepDefinitions.Account"></class> 
+    </classes>
+</test>
+
+</suite>
